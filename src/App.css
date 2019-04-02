@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+.navLogo {
+  max-width: 15em;
+  height: auto;
+}
 .App-header {
   background-color: #1f1f1f;
   min-height: 100vh;

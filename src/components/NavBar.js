@@ -10,6 +10,7 @@ import { withStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import logo from '../lapel.svg';
+import '../App.css';
 
 const styles = theme => ({
   root: {
@@ -80,14 +81,14 @@ function SearchAppBar(props) {
           <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
             <MenuIcon />
           </IconButton>
-          <img src={logo} alt="SVG Version of the LPC Logo."/>
+          <img class="navLogo" src={logo} alt="SVG Version of the LPC Logo."/>
           <div className={classes.grow} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search…"
+              placeholder="Search.."
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
