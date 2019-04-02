@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
       <NavBar></NavBar>
         <header className="App-header">
+        <h1>Lapel Pins in React</h1>
           <img src={logo} className="App-logo" alt="logo" />
         </header>
       </div>
